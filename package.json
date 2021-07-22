@@ -1,0 +1,12 @@
+{
+  "name": "integrationtests2",
+  "version": "1.0.0",
+  "description": "Test cafe Integration tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testPOC": "testcafe chrome --max-http-header-size=2048000 --live tests\\endToEnd\\NowDashboard\\OrderFlyer.spec.js"
+  },
+  "author": "Benjamin Aguilar",
+  "license": "ISC"
+}
